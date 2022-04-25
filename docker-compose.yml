@@ -30,7 +30,6 @@ services:
       - database
 
 
-
 volumes:
   pgdata:
     driver: local
