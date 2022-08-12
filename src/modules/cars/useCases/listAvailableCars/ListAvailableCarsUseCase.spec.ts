@@ -79,8 +79,6 @@ describe('List cars', () => {
       category_id: '12345',
     });
 
-    console.log(cars);
-
     expect(cars).toEqual([car]);
   });
 });
